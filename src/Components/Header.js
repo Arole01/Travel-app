@@ -5,13 +5,13 @@ const Header = () => {
             <a href="#" className="logo"><span>T</span>ravel</a>
 
             <nav className="navbar">
-                <a href="#home">home</a>
-                <a href="#book">book</a>
-                <a href="#packages">packages</a>
-                <a href="#services">services</a>
-                <a href="#gallery">gallery</a>
-                <a href="#review">review</a>
-                <a href="#contact">contact</a>
+                <a href="#home">Home</a>
+                <a href="#book">Book</a>
+                <a href="#packages">Packages</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
             </nav>
 
             <div className="icons">

@@ -24,7 +24,7 @@ const Review = () => {
                                     <i className="fas fa-star"/>
                                     <i className="fas fa-star"/>
                                     <i className="fas fa-star"/>
-                                    <i className="fas fa-star"/>
+                                    <i className="far fa-star"/>
                                 </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ const Review = () => {
                                     <i className="fas fa-star"/>
                                     <i className="fas fa-star"/>
                                     <i className="fas fa-star"/>
-                                    <i className="fas fa-star"/>
+                                    <i className="far fa-star"/>
                                 </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ const Review = () => {
                                 <div className="stars">
                                     <i className="fas fa-star"/>
                                     <i className="fas fa-star"/>
-                                    <i className="fas fa-star"/>
+                                    <i className="far fa-star"/>
                                     <i className="fas fa-star"/>
                                     <i className="fas fa-star"/>
                                 </div>

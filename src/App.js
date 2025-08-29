@@ -1,5 +1,4 @@
 import Book from "./Components/Book";
-import Brand from "./Components/Brand";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Form from "./Components/Form";
@@ -10,6 +9,7 @@ import Packages from "./Components/Packages"
 import Review from "./Components/Review";
 import Services from "./Components/Services";
 import  "./Components/Styles/Styles.css";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (
@@ -23,7 +23,6 @@ function App() {
       <Gallery/>
       <Review/>
       <Contact/>
-      <Brand/>
       <Footer/>
     </div>
   );

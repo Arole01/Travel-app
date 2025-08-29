@@ -12,6 +12,7 @@ const Packages = () => {
                 <span>s</span>
             </h1>
 
+            <div className="box-container">
             <div className="box">
                 <img src="https://res.cloudinary.com/dh549anka/image/upload/v1756236094/img2_jdlkdb.jpg" alt=""/>
                 <div className="content">
@@ -87,7 +88,7 @@ const Packages = () => {
             <div className="box">
                 <img src="https://res.cloudinary.com/dh549anka/image/upload/v1756236064/img6_jqf59m.jpg" alt=""/>
                 <div className="content">
-                    <h3><i className="fas fa-map-maker-alt"/>tokyo</h3>
+                    <h3><i className="fa-map-marker-alt"/>tokyo</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
                     <div className="stars">
@@ -118,6 +119,7 @@ const Packages = () => {
                     <div className="price"> $90.00 <span>$120.00</span></div>
                     <a href="#" className="btn">book now</a>
                 </div>
+            </div>
             </div>
         </section>
     )
