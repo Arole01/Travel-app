@@ -1,4 +1,7 @@
-const Form = () => {
+import React from 'react';
+const Form = ({ loginActive, setLoginActive }) => {
+    if (!loginActive) return null;
+
     return (
         <div className="login-form-container">
             <i className="fas fa-times" id="form-close"></i>
