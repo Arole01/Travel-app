@@ -90,7 +90,7 @@ header .logo span {
 }
 
 header .navbar a {
-    color: #fff;
+    color: purple; /*white*/
     font-size: 2rem;
     margin: 0.8rem;
 }
@@ -330,7 +330,7 @@ header .search-bar-container label:hover {
 .book .row form .inputBox h3 {
     font-size: 2rem;
     padding: 1rem 0;
-    color: #666;
+    color: blue /*#666*/;
 }
 
 .packages .box-container {

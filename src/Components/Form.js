@@ -1,4 +1,5 @@
 import React from 'react';
+
 const Form = ({ loginActive, setLoginActive }) => {
     if (!loginActive) return null;
 
