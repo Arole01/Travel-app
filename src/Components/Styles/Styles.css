@@ -519,7 +519,7 @@ header .search-bar-container label:hover {
 .contact .row form {
     flex: 1 1 50rem;
     padding: 2rem;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+    box-shadow: 0 1rem 2rem violet /*rgba(0, 0, 0, .1)*/;
     border-radius: .5rem;
 }
 
@@ -535,7 +535,7 @@ header .search-bar-container label:hover {
     padding: 1rem;
     font-size: 1.7rem;
     color: #333;
-    background: #f7f7f7;
+    background: skyblue/*#f7f7f7*/;
     text-transform: none;
 }
 
