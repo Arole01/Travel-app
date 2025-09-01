@@ -550,7 +550,7 @@ header .search-bar-container label:hover {
 }
 
 .footer {
-    background: #333;
+    background: lightgoldenrodyellow/*#333*/;
 }
 
 .footer .box-container {
@@ -567,13 +567,13 @@ header .search-bar-container label:hover {
 .footer .box-container .box h3 {
     font-size: 2.5rem;
     padding: .7rem 0;
-    color: #fff;
+    color: navy/*#fff*/;
 }
 
 .footer .box-container .box p {
     font-size: 1.5rem;
     padding: .7rem 0;
-    color: #eee;
+    color: magenta/*#eee*/;
 }
 
 .footer .box-container .box a {
@@ -594,8 +594,8 @@ header .search-bar-container label:hover {
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: normal;
-    color: #fff;
-    border-top: 1rem solid rgba(255, 255, 255, .2);
+    color: yellowgreen /*#fff*/;
+    border-top: 1rem solid darkorange/*rgba(255, 255, 255, .2)*/;
 }
 
 .footer .credit span {
