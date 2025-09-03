@@ -105,16 +105,17 @@ header .icons i:hover {
 
 header .search-bar-container {
     position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    padding: 1.5rem 2rem;
+    display: none;
+    top: 60px;
+    right: 50px;
+    padding: 1rem 2rem;
     background: #333;
-    border-top: 1rem solid rgba(255, 255, 255, .2);
-    display: flex;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    /*border-top: 1rem solid rgba(255, 255, 255, .2);*/
     align-items: center;
     z-index: 1001;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    display: flex;
 }
 
 .menu-bar {
@@ -128,29 +129,37 @@ header .search-bar-container {
 }
 
 .navbar {
-  display: none;
+  display: flex;
+  gap: 20px;
 }
 
 .navbar.active {
   display: block;
 }
 
-.search-bar-container {
-  display: none;
+
+header .search-bar-container.active {
+  display: flex;
 }
 
-.search-bar-container.active {
-  display: block;
+.search-bar-container input[type="search"] {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 200px;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
 }
 
-header .search-bar-container #search-bar {
+/*header .search-bar-container #search-bar {
     width: 100%;
     padding: 1rem;
     text-transform: none;
     color: #333;
     font-size: 1.7rem;
     border-radius: .5rem;
-}
+} */
 
 header .search-bar-container label {
     color: #fff;
