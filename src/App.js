@@ -35,7 +35,7 @@ function App() {
         setSearchActive={setSearchActive}
         loginActive={loginActive}
         setLoginActive={setLoginActive}/>
-      <Form oginActive={loginActive} setLoginActive={setLoginActive}/>
+      <Form loginActive={loginActive} setLoginActive={setLoginActive}/>
       <Home/>
       <Book/>
       <Packages/>

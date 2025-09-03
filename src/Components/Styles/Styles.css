@@ -117,6 +117,31 @@ header .search-bar-container {
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
 
+.menu-bar {
+  font-size: 24px;
+  user-select: none;
+}
+
+.menu-bar.fa-times {
+  /* style for close icon */
+  color: red;
+}
+
+.navbar {
+  display: none;
+}
+
+.navbar.active {
+  display: block;
+}
+
+.search-bar-container {
+  display: none;
+}
+
+.search-bar-container.active {
+  display: block;
+}
 
 header .search-bar-container #search-bar {
     width: 100%;
@@ -291,6 +316,9 @@ header .search-bar-container label:hover {
     background: var(--orange);
 }
 
+.book {
+    margin: 100px;
+}
 .book .row {
     display: flex;
     flex-wrap: wrap;
